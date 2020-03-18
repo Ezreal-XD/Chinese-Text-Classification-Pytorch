@@ -40,8 +40,6 @@ if __name__ == '__main__':
     print("Loading data...")
     vocab, train_data, dev_data, test_data = build_dataset(config, args.word)
     train_iter = build_iterator(train_data, config)
-    print(train_iter)
-    print()
     dev_iter = build_iterator(dev_data, config)
     test_iter = build_iterator(test_data, config)
 
