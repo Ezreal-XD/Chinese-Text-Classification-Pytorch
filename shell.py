@@ -3,8 +3,8 @@ import os
 # python run.py --model TextCNN --embedding random --word True
 
 # plus = ""
-# plus = " --word True"
-plus = " --word True --embedding random"
+plus = " --word True"
+# plus = " --word True --embedding random"
 
 
 print("=============== Training Model: CNN ===============\n")

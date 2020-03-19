@@ -44,7 +44,7 @@ if __name__ == '__main__':
     test_iter = build_iterator(test_data, config)
 
     time_dif = get_time_dif(start_time)
-    print("Time usage:", time_dif)
+    print("Loading time usage:", time_dif)
 
     # train
     config.n_vocab = len(vocab)
